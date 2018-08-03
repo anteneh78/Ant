@@ -168,6 +168,12 @@ button:focus,
     box-shadow             : 0 0 0 1px #eaeaea;
     }
 
+.columns-block.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+
 .blocks {
     box-sizing : border-box;
     }
@@ -265,6 +271,7 @@ button:focus,
     padding  : 20px !important;
     margin   : 0;
     position : relative;
+    background-color: #f4f1e6;
     }
 
 .header .profile-img {
@@ -567,3 +574,8 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+
+section, footer, .le {
+    background-color: #f4f1e6 !important;
+}
